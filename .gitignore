@@ -1,0 +1,29 @@
+# Python cache/test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/OS noise
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Embedded build outputs (MSP430 toolchains)
+build/
+out/
+*.o
+*.obj
+*.d
+*.elf
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+*.log
